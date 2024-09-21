@@ -61,10 +61,10 @@ const uniqueIntegers = (inputFile, outputFile) => {
       handleLine(line);
     }
     writeToFile();
-    console.log('Sorting file complete completed.');
+    console.log('Sorting file complete.');
   };
 
   handleFile();
 };
 
-uniqueIntegers("./sample/sample_04.txt", "./sample/outputFile.txt");
+uniqueIntegers("./sample_input/sample_input_for_students/sample_04.txt", "./sample_input/sample_input_for_students/outputFile.txt");
